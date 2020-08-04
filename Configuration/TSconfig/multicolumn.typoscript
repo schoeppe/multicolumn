@@ -4,7 +4,7 @@ tx_multicolumn {
             maxNumberOfColumns = 10
             makeEqualElementBoxHeight {
                 includeFiles {
-                    jQuery = EXT:multicolumn/Resources/Public/JavaScript/jQuery.js
+                    jQuery >
                     jQuery {
                         priority = 1
                     }
@@ -15,7 +15,7 @@ tx_multicolumn {
 
             makeEqualElementColumnHeight {
                 includeFiles {
-                    jQuery = EXT:multicolumn/Resources/Public/JavaScript/jQuery.js
+                    jQuery >
                     jQuery {
                         priority = 1
                     }
